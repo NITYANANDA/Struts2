@@ -13,8 +13,18 @@ struts2-sitemesh-plugin-2.0.6.jar
 xwork-2.0.1.jar
 
 
-- CRUD with Struts2
+- CRUD with Struts2.
 
-- Struts2 Internationalization (struts.custom.i18n.resources)
+- Struts2 Internationalization (struts.custom.i18n.resources).
+
+- Validation XML.
+
+The GNU General Public License (GPL) Version 2, June 1991
+Changes in the original source code:
+31/05/2013
+The name of the packages: org.crud.tutorial
+EmployeAction.java 
+Files: *.properties
+employees.jsp
 
 

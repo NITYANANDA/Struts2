@@ -45,11 +45,13 @@
 	</table>
 	
 	<br>
+	<!-- new code start-->
 	<s:form>
 	     <s:radio name="request_locale" list="locales" value="locale"/>
 	     <s:submit type="button" key="chooseLanguage"/>
 	 </s:form>
 	 <hr>
+	 <!-- new code end -->
 
 </body>
 </html>

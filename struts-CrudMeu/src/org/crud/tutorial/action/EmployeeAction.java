@@ -102,6 +102,7 @@ public class EmployeeAction extends ActionSupport implements Preparable {
 		return departments;
 	}
 	
+	//new code start
 	static public final Map<String,String> locales = new HashMap<String,String>();
 	static {
 		locales.put("en_US", "English");
@@ -113,6 +114,7 @@ public class EmployeeAction extends ActionSupport implements Preparable {
 	public Map<String,String> getLocales (){
 		return locales;
 	}
+	//new code end
 	
 	
 }
