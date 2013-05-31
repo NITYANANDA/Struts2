@@ -13,3 +13,8 @@ struts2-sitemesh-plugin-2.0.6.jar
 xwork-2.0.1.jar
 
 
+- CRUD with Struts2
+
+- Struts2 Internationalization (struts.custom.i18n.resources)
+
+
