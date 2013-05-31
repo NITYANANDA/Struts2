@@ -11,13 +11,13 @@
 		<!-- Default interceptor stack. -->
 		<default-interceptor-ref name="paramsPrepareParamsStack" />
 		<action name="index"
-			class="com.aurifa.struts2.tutorial.action.EmployeeAction" method="list">
+			class="org.crud.tutorial.action.EmployeeAction" method="list">
 			<result name="success">/WEB-INF/jsp/employees.jsp</result>
 			<!-- we don't need the full stack here -->
 			<interceptor-ref name="basicStack" />
 		</action>
 		<action name="crud"
-			class="com.aurifa.struts2.tutorial.action.EmployeeAction" method="input">
+			class="org.crud.tutorial.action.EmployeeAction" method="input">
 			<result name="success" type="redirect-action">index</result>
 			<result name="input">/WEB-INF/jsp/employeeForm.jsp</result>
 			<result name="error">/WEB-INF/jsp/error.jsp</result>
