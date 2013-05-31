@@ -1,10 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <s:if test="employee==null || employee.employeeId == null">
-	<s:set name="title" value="%{'Add new employee'}" />
+	<s:set name="title" value="%{getText('label.newemployee.add')}" />
 </s:if>
 <s:else>
-	<s:set name="title" value="%{'Update employee'}" />
+	<s:set name="title" value="%{getText('label.employee.update')}" />
 </s:else>
 
 <html>

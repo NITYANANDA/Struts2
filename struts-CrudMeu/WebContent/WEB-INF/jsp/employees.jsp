@@ -14,7 +14,7 @@
 		<s:text name="label.employees" />
 	</h1>
 	<s:url id="url" action="crud!input" />
-	<a href="<s:property value="#url"/>">Add New Employee</a>
+	<a href="<s:property value="#url"/>"><s:text name="label.employee.add" /></a>
 	<br />
 	<br />
 
@@ -36,13 +36,20 @@
 				<td class="nowrap"><s:property value="department.name" /></td>
 				<td class="nowrap"><s:url action="crud!input" id="url">
 						<s:param name="employee.employeeId" value="employeeId" />
-					</s:url> <a href="<s:property value="#url"/>">Edit</a> &nbsp;&nbsp;&nbsp; <s:url
+					</s:url> <a href="<s:property value="#url"/>"><s:text name="label.edit" /></a> &nbsp;&nbsp;&nbsp; <s:url
 						action="crud!delete" id="url">
 						<s:param name="employee.employeeId" value="employeeId" />
-					</s:url> <a href="<s:property value="#url"/>">Delete</a></td>
+					</s:url> <a href="<s:property value="#url"/>"><s:text name="label.delete" /></a></td>
 			</tr>
 		</s:iterator>
 	</table>
+	
+	<br>
+	<s:form>
+	     <s:radio name="request_locale" list="locales" value="locale"/>
+	     <s:submit type="button" key="chooseLanguage"/>
+	 </s:form>
+	 <hr>
 
 </body>
 </html>

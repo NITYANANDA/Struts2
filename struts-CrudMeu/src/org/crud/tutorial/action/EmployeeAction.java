@@ -1,6 +1,8 @@
 package org.crud.tutorial.action;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -27,6 +29,19 @@ public class EmployeeAction extends ActionSupport implements Preparable {
 	private List employees;
 
 	private List departments;
+	
+	private String chooseLanguage;
+	
+	public String getChooseLanguage() {
+		return chooseLanguage;
+	}
+
+	public void setChooseLanguage(String chooseLanguage) {
+		this.chooseLanguage = chooseLanguage;
+	}
+	
+	
+	
 
 	public void prepare() throws Exception {
 		departments = deptService.getAllDepartments();
@@ -86,4 +101,18 @@ public class EmployeeAction extends ActionSupport implements Preparable {
 	public List getDepartments() {
 		return departments;
 	}
+	
+	static public final Map<String,String> locales = new HashMap<String,String>();
+	static {
+		locales.put("en_US", "English");
+		locales.put("es_SP", "Spanish");
+		//locales.put("pt_BR", "Brazil");
+		locales.put("pt_PT", "Portuguese");
+	}
+	
+	public Map<String,String> getLocales (){
+		return locales;
+	}
+	
+	
 }

@@ -14,7 +14,9 @@
 			class="org.crud.tutorial.action.EmployeeAction" method="list">
 			<result name="success">/WEB-INF/jsp/employees.jsp</result>
 			<!-- we don't need the full stack here -->
-			<interceptor-ref name="basicStack" />
+			<!-- <interceptor-ref name="basicStack" />-->
+			<!-- yes, we need the full stack here
+			     struts.custom.i18n.resources -->
 		</action>
 		<action name="crud"
 			class="org.crud.tutorial.action.EmployeeAction" method="input">
