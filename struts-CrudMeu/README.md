@@ -1,8 +1,7 @@
 Jose Luis Villaverde
 jlvbalsa@gmail.com
 
-
-Crud with Struts2
+Server:Tomcat 6
 
 Lib:
 commons-beanutils-1.7.0.jar
@@ -12,3 +11,5 @@ ognl-2.6.11.jar
 struts2-core-2.9.6.jar
 struts2-sitemesh-plugin-2.0.6.jar
 xwork-2.0.1.jar
+
+
