@@ -22,11 +22,10 @@ xwork-2.0.1.jar
 The GNU General Public License (GPL) Version 2, June 1991
 Changes in the original source code:
 31/05/2013
-The name of the packages: org.crud.tutorial
-EmployeAction.java 
-All files with extension properties (*.properties)
-employees.jsp
+- The name of the packages: org.crud.tutorial
+- EmployeAction.java 
+- All files with extension properties (*.properties)
+- employees.jsp
 
-This program is adapted to Struts2 Internationalization.
-
+The original source code is adapted to Struts2 Internationalization.
 
