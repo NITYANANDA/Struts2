@@ -24,7 +24,9 @@ Changes in the original source code:
 31/05/2013
 The name of the packages: org.crud.tutorial
 EmployeAction.java 
-Files: *.properties
+All files with extension properties (*.properties)
 employees.jsp
+
+This program is adapted to Struts2 Internationalization.
 
 
