@@ -26,6 +26,8 @@ Changes in the original source code:
 - EmployeAction.java 
 - All files with extension properties (*.properties)
 - employees.jsp
+- struts.xml
+
 
 The original source code is adapted to Struts2 Internationalization.
 
