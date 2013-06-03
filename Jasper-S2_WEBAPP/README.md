@@ -1,3 +1,6 @@
+autor: Jose Luis Villaverde
+jlvbalsa@gmail.com
+
 Example of use the Struts2 + JasperReports
 
 Eclipse Juno
