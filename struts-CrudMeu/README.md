@@ -1,6 +1,9 @@
-Jose Luis Villaverde
+autor:Jose Luis Villaverde
 jlvbalsa@gmail.com
 
+GNU/LINUX
+openjdk6
+Eclipse Juno
 Server:Tomcat 6
 
 Lib:
