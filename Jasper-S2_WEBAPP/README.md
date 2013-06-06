@@ -1,21 +1,26 @@
+STRUTS2 & JASPERREPORTS
+=======================
+
 autor: Jose Luis Villaverde
 jlvbalsa@gmail.com
 
-Example of use the Struts2 + JasperReports
+Example of use the Struts2 + JasperReports:
 
-Creating a PDF document with a list of people
-Creación de un documento PDF con un listado de personas.
-Criando um documento PDF com uma lista de pessoas.
+.Creating a PDF document with a list of people
+.Creación de un documento PDF con un listado de personas.
+.Criando um documento PDF com uma lista de pessoas.
 
-GNU/LINUX
-openjdk6
-Eclipse Juno
-Server Tomcat6
+.GNU/LINUX
+.openjdk6
+.Eclipse Juno
+.Server Tomcat6
 
 Lib:
-jasperrreports-5.0.4.jar
+.jasperrreports-5.0.4.jar
 
 
+
+*****
 Copyright 2013 José Luis Villaverde Balsa.
 
 This file is part of Jasper-S2_WEBAPP.
@@ -32,4 +37,4 @@ This file is part of Jasper-S2_WEBAPP.
 
     You should have received a copy of the GNU General Public License
     along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
-*/
+
