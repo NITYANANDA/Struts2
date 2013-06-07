@@ -1,4 +1,4 @@
-STRUTS2 & TILES
+STRUTS2 & TILES & JASPERREPORTS
 =======================
 Autor: Jose Luis Villaverde
 
