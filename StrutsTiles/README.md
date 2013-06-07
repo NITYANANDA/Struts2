@@ -11,6 +11,8 @@ Eclipse Juno
 Server Tomcat6
 
 Lib:
+			*
+
 			asm-3.3.jar
 
 			asm-commons-3.3.jar
