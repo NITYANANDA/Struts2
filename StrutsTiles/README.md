@@ -1,14 +1,18 @@
 STRUTS2 & TILES
 =======================
-autor: Jose Luis Villaverde
+Autor: Jose Luis Villaverde
+
 jlvbalsa@gmail.com
 
-Example of use the Struts2 + Tiles:
+Example of use the Struts2 + Tiles + Struts2 Internationalization (struts.custom.i18n.resources).
 
-GNU/LINUX
-openjdk6
-Eclipse Juno
-Server Tomcat6
+- GNU/LINUX
+
+- openjdk6
+
+- Eclipse Juno
+
+- Server Tomcat6
 
 Lib:
 			*
@@ -48,12 +52,12 @@ Copyright 2013 José Luis Villaverde Balsa.
 
 This file is part of StrutsTiles.
 
-    Jasper-S2_WEBAPP is free software: you can redistribute it and/or modify
+    StrutsTiles is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Jasper-S2_WEBAPP is distributed in the hope that it will be useful,
+    StrutsTiles is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
