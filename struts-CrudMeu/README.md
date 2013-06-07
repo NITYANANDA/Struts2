@@ -2,14 +2,20 @@ STRUST2 & CRUD
 ==============
 
 autor:Jose Luis Villaverde
+
 jlvbalsa@gmail.com
 
-GNU/LINUX
-openjdk6
-Eclipse Juno
-Server:Tomcat 6
+- GNU/LINUX
+
+- Openjdk6
+
+- Eclipse Juno
+
+- Server:Tomcat 6
+
 
 Lib:
+----
 
 		commons-beanutils-1.7.0.jar
 		commongs-loggin-1.0.4.jar
@@ -20,17 +26,18 @@ Lib:
 		xwork-2.0.1.jar
 
 
-CRUD with Struts2.
+- CRUD with Struts2.
 
-Struts2 Internationalization (struts.custom.i18n.resources).
+- Struts2 Internationalization (struts.custom.i18n.resources).
 
-Validation XML.
+- Validation XML.
+
+______________________________________
 
 The GNU General Public License (GPL) Version 2, June 1991
 
 
 Changes in the original source code:31/05/2013
-_______________________________________________
 
 		The name of the packages: org.crud.tutorial
 		EmployeAction.java 
