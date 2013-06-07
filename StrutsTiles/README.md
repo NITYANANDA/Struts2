@@ -12,7 +12,9 @@ Server Tomcat6
 
 Lib:
 			asm-3.3.jar
+
 			asm-commons-3.3.jar
+
 			commons-beanutils-1.8.0.jar
 			commons-chain-1.2.jar
 			commons-collections-3.1.jar
