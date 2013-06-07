@@ -2,21 +2,47 @@ STRUTS2 & JASPERREPORTS
 =======================
 
 autor: Jose Luis Villaverde
+
 jlvbalsa@gmail.com
 
 Example of use the Struts2 + JasperReports:
 
-Creating a PDF document with a list of people
-Creación de un documento PDF con un listado de personas.
-Criando um documento PDF com uma lista de pessoas.
+- Creating a PDF document with a list of people
+- Creación de un documento PDF con un listado de personas.
+- Criando um documento PDF com uma lista de pessoas.
 
 GNU/LINUX
+
 openjdk6
+
 Eclipse Juno
+
 Server Tomcat6
 
+
 Lib:
-		jasperrreports-5.0.4.jar
+---
+
+		asm-3.3.jar
+		asm-commons-3.3.jar
+		asm-tree-3.3.jar
+		commons-beanutils-1.8.0.jar
+		commons-collections-2.1.1.jar
+		commons-digester-2.1.jar
+		commons-fileupload-1.2.2.jar
+		commons-io-2.0.1.jar
+		commons-javaflow-20060411.jar
+		commons-lang3-3.1.jar
+		commons-logging-1.1.1.jar
+		freemarker-2.3.19.jar
+		iText-2.1.7.js2.jar
+		jasperreports-5.0.4.jar
+		javassist-3.11.0.GA.jar
+		jdt-compiler-3.1.1.jar
+		ognl-3.0.6.jar
+		struts2-core-2.3.12.jar
+		struts2-jasperreports-plugin-2.3.12.jar
+		xwork-core-2.3.12.jar
 
 
 
