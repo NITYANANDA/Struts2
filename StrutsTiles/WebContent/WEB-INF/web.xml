@@ -48,6 +48,13 @@ This file is part of StrutsTiles.
 		<filter-name>struts2</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	
+	
+	<servlet>
+    	<servlet-name>Imprime</servlet-name>
+    	<servlet-class>com.acme.test.action.JasperAction</servlet-class>
+  	</servlet>
+	
 
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>

@@ -4,7 +4,7 @@ Autor: Jose Luis Villaverde
 
 jlvbalsa@gmail.com
 
-Example of use the Struts2 + Tiles + Struts2 Internationalization (struts.custom.i18n.resources).
+Example of use the Struts2 + Tiles + Struts2 Internationalization (struts.custom.i18n.resources) + JasperReports
 
 - GNU/LINUX
 
@@ -44,6 +44,9 @@ Lib:
 			tiles-core-2.0.6.jar
 			tiles-jsp-2.0.6.jar
 			xwork-core-2.3.12.jar
+			iText-2.1.7.js2.jar (JasperReports)
+			jasperreports-5.0.4.jar
+			struts2-jasperreports-plugin-2.3.12.jar
 
 
 

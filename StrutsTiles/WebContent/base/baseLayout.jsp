@@ -54,7 +54,7 @@ This file is part of StrutsTiles.
 			<div id="cuerpo">
 				<div class="menu_intermedio">
 					<tiles:insertAttribute name="subheader" />
-					<div><a class="manual_usuario texto" href="<s:url action='nofinish' includeParams='none'></s:url>"><s:text  name="subheader.manualUsuario" /></a></div>
+					<div><a class="manual_usuario texto" href="<s:url action='myJasperTest' includeParams='none'></s:url>"><s:text  name="subheader.manualUsuario" /></a></div>
 					<div class="clear"></div>
 				</div>
 				<div class="menu_contraido">
