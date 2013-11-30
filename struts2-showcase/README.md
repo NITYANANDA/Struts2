@@ -1,5 +1,10 @@
-STRUST2
+STRUST2 
 =======
+Esta aplicação mostra o funcionamento de strus2 uma forma muito completa.
+Esta aplicación muestra el funcionamiento de strus2 de una manera muy completa.
+This application shows the operation of strus2 a very complete way.
+
+
 
 - autor: The Apache Software Foundation (http://www.apache.org/)
 
