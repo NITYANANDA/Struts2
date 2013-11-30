@@ -1,0 +1,78 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- 
+DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+Copyright 2013 José Luis Villaverde Balsa.
+
+This file is part of StrutsTiles.
+
+    StrutsTiles is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    StrutsTiles is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<struts>
+
+	<constant name="struts.devMode" value="true" />
+	<!-- <constant name="struts.custom.i18n.resources" value="resources/application" />-->
+
+	<package name="default" extends="struts-default,jasperreports-default">
+		
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+		
+		<action name="*Link" method="{1}" class="com.vaannila.action.LinkAction">
+			<result name="welcome" type="tiles">welcome</result>
+			<result name="irWebxml" type="tiles">irWebxml</result>
+			<result name="irStrutsxml" type="tiles">irStrutsxml</result>
+			<result name="irTilesxml" type="tiles">irTilesxml</result>
+		</action>
+		
+		<!-- 
+		<result-types>
+    		<result-type name="jasper" class="org.apache.struts2.views.jasperreports.JasperReportsResult"/>
+		</result-types>
+		-->
+	    <action name="myJasperTest" class="com.vaannila.action.JasperAction">
+	        <result name="success" type="jasper">
+	            <param name="location">/jasper/our_jasper_template.jasper</param>
+	            <param name="dataSource">myList</param>
+	            <param name="format">PDF</param>
+	        </result>
+	    </action>
+		
+		
+				
+	</package>
+	
+	 <!-- 
+	<package name="manual" namespace="/manual" extends="jasperreports-default">
+		
+	    <action name="myJasperTest" class="com.vaannila.action.JasperAction">
+	        <result name="success" type="jasper">
+	            <param name="location">/jasper/our_jasper_template.jasper</param>
+	            <param name="dataSource">myList</param>
+	            <param name="format">PDF</param>
+	        </result>
+	    </action>
+	    
+	    
+	</package>
+	-->
+	
+	
+	
+</struts>
