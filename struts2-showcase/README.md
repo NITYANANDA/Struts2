@@ -1,6 +1,7 @@
 STRUST2
 =======
 
+- autor: The Apache Software Foundation (http://www.apache.org/)
 
 - GNU/LINUX
 
